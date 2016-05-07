@@ -36,7 +36,7 @@ app.use(mountPath, api);
 
 // Parse Server plays nicely with the rest of your web routes
 app.get('/', function(req, res) {
-  res.status(200).send('Make sure to star the parse-server repo on GitHub!');
+  res.status(200).send('<html><head><title>Memory Layers</title></head><body style="color:#eee"><h3>Memory Layers</h3></body></html>');
 });
 
 // There will be a test page available on the /test path of your server url
