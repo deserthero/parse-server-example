@@ -36,7 +36,7 @@ app.use(mountPath, api);
 
 // Parse Server plays nicely with the rest of your web routes
 app.get('/', function(req, res) {
-  res.status(200).send('<html><head><title>Memory Layers</title></head><body ><div ><h1 style="color:#fff; background-color:#1189C0;font-size:200px;left: 0;line-height: 200px; margin: auto; margin-top: -100px;  position: absolute;   top: 50%;  width: 100%;">Memory Layers</h1></div></body></html>');
+  res.status(200).send('<html><head><title>Memory Layers</title></head><body style=" background-color:#1189C0;" ><div ><h1 style="color:#fff;font-size:100px;right: 34%;top:30%; position:fixed;">Memory Layers</h1></div></body></html>');
 });
 
 // There will be a test page available on the /test path of your server url
