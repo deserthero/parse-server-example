@@ -31,12 +31,12 @@ var app = express();
 /**
  * GitHub specific details, including application id and secret
  */
-var githubClientId = 'your-github-client-id-here';
-var githubClientSecret = 'your-github-client-secret-here';
+var githubClientId = 'idenity_appA';
+var githubClientSecret = 'clientSecret';
 
-var githubRedirectEndpoint = 'https://github.com/login/oauth/authorize?';
-var githubValidateEndpoint = 'https://github.com/login/oauth/access_token';
-var githubUserEndpoint = 'https://api.github.com/user';
+var githubRedirectEndpoint = 'https://idserv.azurewebsites.net/en/identity/connect/authorize';
+var githubValidateEndpoint = 'https://idserv.azurewebsites.net/en/identity/connect/accesstokenvalidation';
+var githubUserEndpoint = 'https://idserv.azurewebsites.net/en/identity/connect/userinfo';
 
 /**
  * In the Data Browser, set the Class Permissions for these 2 classes to
